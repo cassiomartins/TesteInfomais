@@ -1,0 +1,33 @@
+Criar repositório
+
+Fazer  git clone
+	git clone endereço http do repositório
+
+Comandos
+
+	git status
+		ver os arquivos alterados
+	git add .
+		adicionar todos arquivos alterados
+	git commit -m "comentario"
+		Fazer commit
+	git push origin nome_da_branch
+
+
+Outros comandos
+	git branch nome_da_nova_branch
+		criar nova branch
+	git checkout nome_da_nova_branch 
+		mudar para nova branch
+
+	git push --set-upstream origin nome_da_nova_branch
+		enviar nova branch para repositório global
+
+	git merge nome_da_branch
+		mesclar as branchs
+
+	git log
+		histórico de commits
+
+	git reset --hard XXXXXXXXXXX
+		Volta para o commit com a hash XXXXXXXXXXX
